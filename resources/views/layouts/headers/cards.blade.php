@@ -8,7 +8,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col">
-                                    <h5 class="card-title text-uppercase text-muted mb-0">Total de usuários cadastrados</h5>
+                                    <h5 class="card-title text-uppercase text-muted mb-0">Total de usuários</h5>
                                     <span class="h2 font-weight-bold mb-0">{{$total}}</span>
                                 </div>
                                 <div class="col-auto">
@@ -23,7 +23,7 @@
                 </div>
                
                 <div class="col-xl-3 col-lg-6">
-                    <a href="">
+                    <a href="{{ route('usuarios.create') }}">
                     <div class="card card-stats mb-4 mb-xl-0">
                         <div class="card-body">
                             <div class="row">
@@ -42,7 +42,7 @@
                 </div>
                 
                 <div class="col-xl-3 col-lg-6">
-                    <a href="">
+                    <a href="{{ route('usuarios.index') }}">
                         <div class="card card-stats mb-4 mb-xl-0">
                             <div class="card-body">
                                 <div class="row">
